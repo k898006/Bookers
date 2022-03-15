@@ -1,3 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box
+}
+
+body {
+  margin: 33px;
+}
+
+.top-text {
+  margin: 33px;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+  margin: 17px;
+}
+
+table {
+  display: table;
+  border-collapse: separate;
+  box-sizing: border-box;
+  text-indent: initial;
+  border-spacing: 2px;
+  border-color: gray;
+  margin-left: 20px;
+}
+
+
+th {
+  display: table-cell;
+  vertical-align: inherit;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+td {
+  padding-bottom: 7px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+h2 {
+  margin: 16px;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+p {
+  margin-left: 16px;
+}
+
+.input-area {
+  margin-left: 16px;
+}
+
+.submit {
+  margin-left: 16px;
+}
+
+.show-title {
+  margin-bottom: 33px;
+}
+
+.show-body {
+  margin-bottom: 33px;
+}
+
+.link-edit-back {
+  display:flex;
+}
+
+.link {
+  padding:0 5px;
+  border-right:solid 1px black;
+}
+
+.link:last-child {
+  border-right:none;
+}
+
+.edit-common {
+  margin-bottom: 20px;
+}
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.

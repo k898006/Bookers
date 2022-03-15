@@ -9,7 +9,7 @@ class BooksController < ApplicationController
     @book = Book.new(book_params)
     if @book.save
       flash[:notice] = "Operation was successfully completed"
-      redirect_to '/books'
+      redirect_to book_path(@book.id)
     else render :new
     end
   end
